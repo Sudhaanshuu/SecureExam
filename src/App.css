@@ -1,0 +1,17 @@
+.app {
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.exam-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  height: 100vh;
+}
+
+@media (max-width: 1200px) {
+  .exam-container {
+    flex-direction: column;
+  }
+}
